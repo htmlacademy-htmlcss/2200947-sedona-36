@@ -35,6 +35,20 @@ body {
   color: #000000;
 }
 
+.navigation-item-here {
+  background-color: #756157;
+}
+
+.navigation-link-here {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: Center;
+}
+
 /* Основная часть */
 
 .section-hero {
@@ -189,6 +203,8 @@ body {
   text-align: Center;
   background-color: #756157;
 }
+
+
 
 /* Раздел рассылка */
 
