@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Город Седона</title>
-    <!-- <link rel="stylesheet" href="styles/styles.css"> -->
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -35,7 +35,7 @@
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="#">
-            <span class="visually-hidden">Отзывы</span>
+            <span class="visually-hidden">Избранное</span>
           </a>
         </li>
         <li class="navigation-item">
@@ -102,15 +102,15 @@
 
       <h2 class="visually-hidden">Сервис</h2>
       <ul class="services-list">
-        <li class="services-item">
+        <li class="services-item-home">
           <h3 class="services-title">Жильё</h3>
           <p class="services-description">Рекомендуем пожить<br>в настоящем мотеле,<br>всё как в кино!</p>
         </li>
-        <li class="services-item">
+        <li class="services-item-food">
           <h3 class="services-title">Еда</h3>
           <p class="services-description">Всегда заказывайте<br>топовый фирменный бургер,<br>вы не разочаруетесь!</p>
         </li>
-        <li class="services-item">
+        <li class="services-item-souvenir">
           <h3 class="services-title">Сувениры</h3>
           <p class="services-description">Не только китайского,<br>но и настоящего местного<br>производства!</p>
         </li>
@@ -123,8 +123,10 @@
           <h2 class="search-hotel-question">Заинтересовались?</h2>
           <p class="search-hotel-ordering">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         </div>
-          <a class="search-hotel-link" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
-      </section>
+        <div class="search-hotel-link">
+          <a class="search-hotel-link-on" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+        </div>
+        </section>
 
 <!-- Раздел рассылка -->
 
@@ -135,7 +137,7 @@
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="newsletter-email"></label>
           <input class="field" type="email" name="newsletter-email" placeholder="Ваш e-mail" required>
-          <button class="button newsletter-button" type="submit"><span class="visually-hidden">Подписаться</span></button>
+          <button class="button newsletter-button" type="submit"><span class="newsletter-title">Подписаться</span></button>
         </form>
       </section>
 
