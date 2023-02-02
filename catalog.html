@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Город Седона</title>
-    <!-- <link rel="stylesheet" href="styles/styles.css"> -->
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -35,11 +35,11 @@
     </li>
     <li class="navigation-item">
       <a class="navigation-link" href="#">
-        <span class="visually-hidden">Отзывы</span>
+        <span class="visually-hidden">Избранное</span>
       </a>
     </li>
-    <li class="navigation-item">
-      <a class="navigation-link" href="#">Хочу сюда!</a>
+    <li class="navigation-item-here">
+      <a class="navigation-link-here" href="#">Хочу сюда!</a>
     </li>
   </ul>
   </nav>
@@ -116,7 +116,11 @@
 <!-- Найдено гостиниц -->
 
       <section class="sorting">
-        <h2 class="found-hotel">Найдено гостиниц: 38</h2>
+        <h2 class="visually-hidden">Поиск гостиницы</h2>
+        <p class="search">Найдено гостиниц:
+          <span class="search-result">38</span>
+        </p>
+
         <select class="select-control" aria-label="Сортировка">
           <option value="cheap">Сначала дешёвые</option>
           <option value="expensive">Сначала дорогие</option>
@@ -136,6 +140,7 @@
       </section>
 
       <section class="card-search">
+        <h2 class="visually-hidden">Найденные гостиницы</h2>
         <ul class="hotel-list">
           <li class="hotel-amara hotel-size-card">
             <a class="hotel-amara-link" href="#">
@@ -144,8 +149,8 @@
             </a>
             <p class="hotel-amara-name">Гостиницa</p>
             <p class="hotel-amara-price">От 4000 ₽</p>
-            <a class="hotel-amara-more button" href="#">Подробнее</a>
-            <button class="hotel-amara-tofavorit button" type="button" name="favorites">В избранное</button>
+            <a class="hotel-amara-more button button-card" href="#">Подробнее</a>
+            <button class="hotel-amara-tofavorit button button-card" type="button" name="favorites">В избранное</button>
             <p><span class="star visually-hidden">4 звезды</span></p>
             <p class="raiting">Рейтинг: 8.5</p>
           </li>
@@ -157,8 +162,8 @@
             </a>
             <p class="hotel-diablo-name">Гостиницa</p>
             <p class="hotel-diablo-price">От 5000 ₽</p>
-            <a class="hotel-diablo-more button" href="#">Подробнее</a>
-            <button class="hotel-diablo-tofavorit button" type="button" name="favorites">В избранном</button>
+            <a class="hotel-diablo-more button button-card" href="#">Подробнее</a>
+            <button class="hotel-diablo-tofavorit button button-card" type="button" name="favorites">В избранном</button>
             <p><span class="star visually-hidden">4 звезды</span></p>
             <p class="raiting">Рейтинг: 9.2</p>
           </li>
@@ -170,8 +175,8 @@
             </a>
             <p class="hotel-desert-name">Гостиницa</p>
             <p class="hotel-desert-price">От 2500 ₽</p>
-            <a class="hotel-desert-more button" href="#">Подробнее</a>
-            <button class="hotel-desert-tofavorit button" type="button" name="favorites">В избранное</button>
+            <a class="hotel-desert-more button button-card" href="#">Подробнее</a>
+            <button class="hotel-desert-tofavorit button button-card" type="button" name="favorites">В избранное</button>
             <p><span class="star visually-hidden">3 звезды</span></p>
             <p class="raiting">Рейтинг: 6.9</p>
           </li>
@@ -183,8 +188,8 @@
             </a>
             <p class="hotel-green-name">Гостиницa</p>
             <p class="hotel-green-price">От 1500 ₽</p>
-            <a class="hotel-green-more button" href="#">Подробнее</a>
-            <button class="hotel-green-tofavorit button" type="button" name="favorites">В избранное</button>
+            <a class="hotel-green-more button button-card" href="#">Подробнее</a>
+            <button class="hotel-green-tofavorit button button-card" type="button" name="favorites">В избранное</button>
             <p><span class="star visually-hidden">2 звезды</span></p>
             <p class="raiting">Рейтинг: 5.0</p>
           </li>
@@ -217,9 +222,9 @@
 
 <!-- Раздел рассылка -->
 
-      <section class="newsletter-index">
-        <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
-        <p class="newsletter-subscribtion">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
+      <section class="newsletter-catalog">
+        <h2 class="newsletter-title newsletter-title-catalog">Подпишитесь на рассылку</h2>
+        <p class="newsletter-subscribtion newsletter-subscribtion-catalog">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
 
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="newsletter-email"></label>
@@ -254,15 +259,15 @@
     </ul>
    </section>
 
-   <section class="footer-contacts">
+   <div class="footer-contacts">
     <a class="contacts-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
-   </section>
+   </div>
 
-   <section class="footer-logo">
+   <div class="footer-logo">
     <a href="https://htmlacademy.ru/">
     <img class="footer-logo-pic" src="images/logo/logo-html-academy.svg" width="115" height="33" alt="Логотип html.academy"></a>
-   </section>
+    </div>
 
 </footer>
-  </body>
+</body>
 </html>
