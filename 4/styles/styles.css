@@ -1,0 +1,410 @@
+/* Подключение шрифтов */
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* Разметка главной страницы */
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  background-color: #FFFFFF;
+
+}
+
+/*  Хедер */
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000000;
+}
+
+.navigation-item-here {
+  background-color: #756157;
+}
+
+.navigation-link-here {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: Center;
+}
+
+/* Основная часть */
+
+.section-hero {
+  background-image: url("../images/index-background.jpg") ;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align:center;
+}
+
+/* Раздел приемуществ */
+
+.main-benefits-sity-intro {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: Center;
+}
+
+.main-benefits-intro {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  text-align: Center;
+}
+
+.advantages-item-basic-1, .advantages-item-basic-5 {
+  background-color: #82B3D3;
+}
+
+.advantages-item-basic-1 .advantages-title,
+.advantages-item-basic-5 .advantages-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: Center;
+}
+
+.advantages-item-basic-1 .advantages-description,
+.advantages-item-basic-5 .advantages-description {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-align: Center;
+}
+
+.advantages-item-basic-2, .advantages-item-basic-4 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-basic-3 {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: Center;
+}
+
+.advantages-description {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-align: Center;
+}
+
+.services-intro {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: Center;
+}
+
+.services-intro-promo {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  text-align: Center;
+}
+/* Раздел сервис */
+
+.services-item-home, .services-item-souvenir {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: Center;
+}
+
+.services-description {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-align: Center;
+}
+
+/* Раздел поиск гостиницы */
+
+.search-hotel-question {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: Center;
+}
+
+.search-hotel-ordering {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  text-align: Center;
+}
+
+.search-hotel-link {
+  text-align: Center;
+}
+
+.search-hotel-link-on {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: Center;
+  background-color: #756157;
+}
+
+
+
+/* Раздел рассылка */
+
+.newsletter-index {
+  color: #FFFFFF;
+  background-image: url("../images/index-background-bottom.jpg");
+  background-repeat: no-repeat;
+  background-size: 1200 415;
+  text-align: Center;
+}
+
+.newsletter-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: Center;
+}
+
+.newsletter-subscribtion {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: Center;
+}
+
+.newsletter-button {
+  background-color: #82B3D3;
+}
+
+.newsletter-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: Center;
+  color:#FFFFFF;
+}
+
+/* Футер */
+
+.contacts-phone {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: Center;
+  color: #000000;
+}
+
+/* Разметка каталога*/
+
+/* Поиск гостиницы*/
+
+.catalog-backgraund {
+  background-image: url("../images/catalog-background.jpg") ;
+  background-size: 1200 412;
+  background-repeat: no-repeat;
+}
+
+.inner-header-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.breadcrumbs-link {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.catalog-filter-group {
+  color: #FFFFFF;
+}
+
+.catalog-filter-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.control-input {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.catalog-filter-title {
+  color: #FFFFFF;
+}
+
+.price-range{
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.prim {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.button-apply {
+  background-color: #82B3D3;
+}
+
+/* Найдено гостиниц */
+
+.search {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.select-control {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.hotel-amara-title, .hotel-diablo-title, .hotel-desert-title, .hotel-green-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  color: #000000;
+}
+
+.hotel-amara-name, .hotel-amara-price, .hotel-diablo-name, .hotel-diablo-price, .hotel-desert-name, .hotel-desert-price, .hotel-green-name, .hotel-green-price {
+  font-family: "PT Sans", sans-serif;
+  font-style: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.button-card, .raiting {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.hotel-green-more, .hotel-desert-more, .hotel-diablo-more, .hotel-amara-more {
+  background-color: #756157;
+}
+
+.hotel-amara-tofavorit, .hotel-desert-tofavorit, .hotel-green-tofavorit {
+  background-color: #82B3D3;
+}
+
+.hotel-diablo-tofavorit {
+  background-color: #7DB54F;
+}
+
+.raiting {
+  color: #333333;
+}
+
+.pagination-link {
+  font-family: "PT Sans", sans-serif;
+  font-style: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.pagination-current {
+  color: #000000;
+}
+
+/* Рассылка */
+
+.newsletter-title-catalog {
+  color: #000000;
+}
+
+.newsletter-subscribtion-catalog {
+  color: #333333;
+}
