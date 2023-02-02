@@ -30,7 +30,6 @@ body {
 
 .navigation-link {
   font-family: "PT Sans", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -45,7 +44,7 @@ body {
 
 .navigation-link-here {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
@@ -66,7 +65,7 @@ body {
 
 .main-benefits-sity-intro {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -76,7 +75,7 @@ body {
 
 .main-benefits-intro {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -90,7 +89,7 @@ body {
 .advantages-item-basic-1 .advantages-title,
 .advantages-item-basic-5 .advantages-title {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   text-transform: uppercase;
   color: #FFFFFF;
   text-align: Center;
@@ -99,7 +98,7 @@ body {
 .advantages-item-basic-1 .advantages-description,
 .advantages-item-basic-5 .advantages-description {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
@@ -116,7 +115,7 @@ body {
 
 .advantages-title {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   text-transform: uppercase;
   color: #000000;
   text-align: Center;
@@ -124,7 +123,7 @@ body {
 
 .advantages-description {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
@@ -133,7 +132,7 @@ body {
 
 .services-intro {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -143,7 +142,7 @@ body {
 
 .services-intro-promo {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -157,7 +156,7 @@ body {
 
 .services-title {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   text-transform: uppercase;
   color: #000000;
   text-align: Center;
@@ -165,7 +164,7 @@ body {
 
 .services-description {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
@@ -176,7 +175,7 @@ body {
 
 .search-hotel-question {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -186,7 +185,7 @@ body {
 
 .search-hotel-ordering {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -199,7 +198,7 @@ body {
 
 .search-hotel-link-on {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
@@ -222,7 +221,7 @@ body {
 
 .newsletter-title {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -231,7 +230,7 @@ body {
 
 .newsletter-subscribtion {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: Center;
@@ -243,7 +242,7 @@ body {
 
 .newsletter-title {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
@@ -255,7 +254,7 @@ body {
 
 .contacts-phone {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
@@ -275,7 +274,7 @@ body {
 
 .inner-header-title {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 60px;
   line-height: 78px;
   color: #FFFFFF;
@@ -283,7 +282,7 @@ body {
 
 .breadcrumbs-link {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
@@ -295,14 +294,14 @@ body {
 
 .catalog-filter-title {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
 }
 
 .control-input {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 18px;
   line-height: 23px;
 }
@@ -313,7 +312,7 @@ body {
 
 .price-range{
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   color: #FFFFFF;
@@ -321,7 +320,7 @@ body {
 
 .prim {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
@@ -335,7 +334,7 @@ body {
 
 .search {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   color: #000000;
@@ -343,7 +342,7 @@ body {
 
 .select-control {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
@@ -351,13 +350,13 @@ body {
 
 .hotel-amara-title, .hotel-diablo-title, .hotel-desert-title, .hotel-green-title {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   color: #000000;
 }
 
 .hotel-amara-name, .hotel-amara-price, .hotel-diablo-name, .hotel-diablo-price, .hotel-desert-name, .hotel-desert-price, .hotel-green-name, .hotel-green-price {
   font-family: "PT Sans", sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
@@ -365,7 +364,7 @@ body {
 
 .button-card, .raiting {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
@@ -389,7 +388,7 @@ body {
 
 .pagination-link {
   font-family: "PT Sans", sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   color: #FFFFFF;
