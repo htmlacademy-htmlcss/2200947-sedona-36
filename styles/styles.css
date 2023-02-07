@@ -34,6 +34,8 @@ body {
 
   background-color: #F2F2F2;
 
+  align-items: center;
+
 }
 
 /*  Скрыть  visually-hidden   */
@@ -425,8 +427,9 @@ body {
 
 .catalog-backgraund {
   background-image: url("../images/catalog-background.jpg") ;
-  background-size: 1200 412;
   background-repeat: no-repeat;
+  width: 1200px;
+  text-align: center;
 }
 
 .inner-header-title {
@@ -489,6 +492,13 @@ body {
 
 /* Найдено гостиниц */
 
+.sorting {
+  background-color: #FFFFFF;
+  width: 1200px;
+  display: flex;
+  justify-content:space-around;
+}
+
 .search {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
@@ -503,6 +513,18 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+}
+
+.card-search {
+  background-color: #FFFFFF;
+  width: 1200px;
+}
+
+.hotel-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .hotel-amara-title, .hotel-diablo-title, .hotel-desert-title, .hotel-green-title {
@@ -543,6 +565,17 @@ body {
   color: #333333;
 }
 
+.pagination {
+  background-color: #FFFFFF;
+  width: 1200px;
+
+}
+
+.pagination-number {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .pagination-link {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
@@ -556,6 +589,14 @@ body {
 }
 
 /* Рассылка */
+
+.newsletter-catalog {
+  background-color: #FFFFFF;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .newsletter-title-catalog {
   color: #000000;
