@@ -117,15 +117,20 @@
 
       <section class="sorting">
         <h2 class="visually-hidden">Поиск гостиницы</h2>
-        <p class="search">Найдено гостиниц:
-          <span class="search-result">38</span>
-        </p>
+        <div class="sorting-hotel">
+          <p class="search">Найдено гостиниц:
+            <span class="search-result">38</span>
+          </p>
+        </div>
 
-        <select class="select-control" aria-label="Сортировка">
-          <option value="cheap">Сначала дешёвые</option>
-          <option value="expensive">Сначала дорогие</option>
-          <option value="popular">Сначала популярные</option>
-        </select>
+        <div class="select-sorting-control">
+          <select class="select-control" aria-label="Сортировка">
+            <option value="cheap">Сначала дешёвые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="popular">Сначала популярные</option>
+          </select>
+        </div>
+        <div class="sorting-view-hotel">
           <ul class="sorting-view">
             <li class="sorting-view-card">
               <button class="button sorting-view-card-button" type="button" name="favorites"><span class="visually-hidden">Показать карточки</span></button>
@@ -137,6 +142,7 @@
               <button class="button sorting-view-card-list" type="button" name="favorites"><span class="visually-hidden">Показать список</span></button>
             </li>
           </ul>
+        </div>
       </section>
 
       <section class="card-search">
@@ -144,7 +150,7 @@
         <ul class="hotel-list">
           <li class="hotel-amara hotel-size-card">
             <a class="hotel-amara-link" href="#">
-              <img class="hotel-amara-image" src="images/card/product-1.jpg" width="300" height="212" alt="отель Амара">
+              <img class="hotel-image" src="images/card/product-1.jpg" width="300" height="212" alt="отель Амара">
               <h3 class="hotel-amara-title">Amara Resort & Spa</h3>
             </a>
             <p class="hotel-amara-name">Гостиницa</p>
@@ -157,7 +163,7 @@
 
           <li class="hotel-diablo hotel-size-card">
             <a class="hotel-diablo-link" href="#">
-              <img class="hotel-diablo-image" src="images/card/product-2.jpg" width="300" height="212" alt="отель Диабло">
+              <img class="hotel-image" src="images/card/product-2.jpg" width="300" height="212" alt="отель Диабло">
               <h3 class="hotel-diablo-title">Villas at Poco Diablo</h3>
             </a>
             <p class="hotel-diablo-name">Гостиницa</p>
@@ -170,7 +176,7 @@
 
           <li class="hotel-desert hotel-size-card">
             <a class="hotel-desert-link" href="#">
-              <img class="hotel-desert-image" src="images/card/product-3.jpg"  width="300" height="212" alt="отель Десерт">
+              <img class="hotel-image" src="images/card/product-3.jpg"  width="300" height="212" alt="отель Десерт">
               <h3 class="hotel-desert-title">Desert Quail Inn</h3>
             </a>
             <p class="hotel-desert-name">Гостиницa</p>
@@ -183,7 +189,7 @@
 
           <li class="hotel-green hotel-size-card">
             <a class="hotel-green-link" href="#">
-              <img class="hotel-green-image" src="images/card/product-4.jpg"  width="300" height="212" alt="отель Зеленое дерево">
+              <img class="hotel-image" src="images/card/product-4.jpg"  width="300" height="212" alt="отель Зеленое дерево">
               <h3 class="hotel-green-title">Green Tree Inn</h3>
             </a>
             <p class="hotel-green-name">Гостиницa</p>
@@ -220,7 +226,7 @@
         </ul>
       </section>
 
-<!-- Раздел рассылка -->
+<!-- Раздел рассылка-->
 
       <section class="newsletter-catalog">
         <h2 class="newsletter-title newsletter-title-catalog">Подпишитесь на рассылку</h2>
@@ -229,45 +235,47 @@
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="newsletter-email"></label>
           <input class="field" type="email" name="newsletter-email" placeholder="Ваш e-mail" required>
-          <button class="button newsletter-button" type="submit"><span class="visually-hidden">Подписаться</span></button>
+          <button class="button newsletter-button" type="submit"><span class="newsletter-title">Подписаться</span></button>
         </form>
       </section>
+
 
     </main>
 
 <!-- Футер -->
 
 <footer class="footer">
-  <section class="footer-social">
-    <h2 class="visually-hidden">Соцсети</h2>
-    <ul class="footer-social-list">
-       <li class="footer-social-item">
-           <a class="button icon-vk" href="https://vk.com/htmlacademy_ru">
-               <span class="visually-hidden">ВКонтакте</span>
-           </a>
-       </li>
-       <li class="footer-social-item">
-           <a class="button" href="https://www.t.me/htmlacademy">
-               <span class="visually-hidden">Телеграмм</span>
-           </a>
-       </li>
-       <li class="footer-social-item">
-           <a class="button" href="https://www.youtube.com/user/htmlacademy.ru">
-               <span class="visually-hidden">Ютуб</span>
-           </a>
-       </li>
-    </ul>
-   </section>
+  <div class="page-footer-container">
+    <section class="footer-social">
+      <h2 class="visually-hidden">Соцсети</h2>
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a class="button icon-vk" href="https://vk.com/htmlacademy_ru">
+            <span class="visually-hidden">ВКонтакте</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button icon-telegram" href="https://www.t.me/htmlacademy">
+            <span class="visually-hidden">Телеграмм</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button icon-youtube" href="https://www.youtube.com/user/htmlacademy.ru">
+            <span class="visually-hidden">Ютуб</span>
+          </a>
+        </li>
+      </ul>
+    </section>
 
-   <div class="footer-contacts">
-    <a class="contacts-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
-   </div>
-
-   <div class="footer-logo">
-    <a href="https://htmlacademy.ru/">
-    <img class="footer-logo-pic" src="images/logo/logo-html-academy.svg" width="115" height="33" alt="Логотип html.academy"></a>
+    <div class="footer-contacts">
+      <a class="contacts-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
     </div>
 
+    <div class="footer-logo">
+      <a href="https://htmlacademy.ru/">
+      <img class="footer-logo-pic" src="images/logo/logo-html-academy.svg" width="115" height="33" alt="Логотип html.academy"></a>
+    </div>
+  </div>
 </footer>
 </body>
 </html>
