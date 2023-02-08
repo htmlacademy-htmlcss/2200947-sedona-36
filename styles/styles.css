@@ -555,7 +555,10 @@ body {
   height: 438px;
   text-align: center;
   border: 1px solid #E6E6E6;
+}
 
+.hotel-image {
+  margin: 20px 20px 0;
 }
 
 .hotel-amara-title,
