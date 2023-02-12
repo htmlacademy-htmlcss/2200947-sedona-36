@@ -23,6 +23,7 @@ html {
 }
 
 body {
+  height: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -59,18 +60,35 @@ body {
   background-color: #FFFFFF;
   display: flex;
   width: 1200px;
+  height: 64px;
   margin: 0 auto;
 }
 
+.header-logo {
+  margin-left: 70px;
+  position: relative;
+
+}
+
 .navigation-list {
-  width: 339px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.navigonion-user .navigonion-link  {
+  min-width: 44px;
+  min-height: 64px;
 }
 
 .navigonion-user {
   max-width: 269px;
   margin-left: auto;
+
 }
 
 .navigation-link {
@@ -81,10 +99,17 @@ body {
   text-transform: capitalize;
   text-decoration: none;
   color: #000000;
+  display: block;
+  padding: 20px 16px;
 }
 
 .navigation-item-here {
+  padding: 14px 0 14px 20px;
+}
+
+.navigonion-link-color{
   background-color: #756157;
+  padding: 8px 34px;
 }
 
 .navigation-link-here {
@@ -93,6 +118,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  text-decoration: none;
   color: #FFFFFF;
   text-align: Center;
 }
@@ -116,11 +142,16 @@ body {
   text-align:center;
 }
 
+.hero-welcome {
+  padding: 51px 371px 82px;
+}
+
 /* Раздел приемуществ */
 
 .main-benefits {
   background-color: #FFFFFF;
   width: 1200px;
+  padding: 69px 0;
  }
 
 .main-benefits-sity-intro {
@@ -131,6 +162,7 @@ body {
   text-transform: uppercase;
   color: #000000;
   text-align: Center;
+  margin: 0 auto;
 }
 
 .main-benefits-intro {
@@ -140,6 +172,9 @@ body {
   line-height: 26px;
   color: #333333;
   text-align: Center;
+  margin: 0 auto;
+  padding-top: 25px;
+
 }
 
 .advantages-list {
@@ -153,10 +188,9 @@ body {
 .advantages-item-basic-2,
 .advantages-item-basic-3,
 .advantages-item-basic-4 {
-  width: 400px;
-  min-height: 385px;
+  width: 230px;
   margin: 0;
-  padding: 0;
+  padding: 113px 85px;
   list-style-type: none;
 }
 
@@ -171,24 +205,17 @@ body {
 
 .advantages-item-basic-1,
 .advantages-item-basic-5 {
-  width: 400px;
-}
-
-.advantages-item-basic-1,
-.advantages-item-basic-5 {
+  width: 230px;
+  padding: 102px 85px;
   background-color: #82B3D3;
-
 }
 
 .advantages-item-basic-1
 .advantages-title,
 .advantages-item-basic-5
 .advantages-title {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
   color: #FFFFFF;
-  text-align: Center;
+
 }
 
 .advantages-item-basic-1
@@ -200,7 +227,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
-  text-align: Center;
+
 }
 
 .advantages-item-basic-2,
@@ -228,11 +255,14 @@ body {
   line-height: 21px;
   color: #000000;
   text-align: Center;
+  margin: 0;
 }
 
 .services {
   background-color: #FFFFFF;
   width: 1200px;
+  padding: 64px 0;
+  margin: 0 auto;
  }
 
 .services-list {
@@ -264,6 +294,11 @@ body {
   text-align: Center;
 }
 /* Раздел сервис */
+
+.services-item-home {
+  
+}
+
 
 .services-item-home,
 .services-item-souvenir {
