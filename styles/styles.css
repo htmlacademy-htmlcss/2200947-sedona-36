@@ -765,6 +765,74 @@ body {
   margin: 20px 20px 0;
 }
 
+.hotel-card-grid {
+  display: grid;
+  grid-template-columns: 140px 20px 140px;
+  grid-template-rows: 28px 21px 36px 37px;
+  row-gap: 16px;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+
+.grid-title {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  margin: 0;
+}
+
+.grid-hotel-name {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin: 0;
+}
+
+.grid-hotel-price {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  margin: 0;
+}
+
+.grid-hotel-button {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  margin: 0;
+  text-decoration: none;
+  border-radius: 4px;
+  padding-top: 8px;
+
+}
+
+.grid-button {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  margin: 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.grid-star {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  margin: 0;
+}
+
+.raiting {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+
+  grid-column: 3/4;
+  grid-row: 4/5;
+  margin: 0;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  padding-top: 9px;
+}
+
 .hotel-amara-title,
 .hotel-diablo-title,
 .hotel-desert-title,
@@ -790,13 +858,15 @@ body {
   color: #333333;
 }
 
-.button-card,
-.raiting {
+.button-card {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  list-style-type: none;
 }
 
 .hotel-green-more,
@@ -814,10 +884,6 @@ body {
 
 .hotel-diablo-tofavorit {
   background-color: #7db54f;
-}
-
-.raiting {
-  color: #333333;
 }
 
 .pagination {
