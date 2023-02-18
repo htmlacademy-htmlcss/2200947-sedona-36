@@ -382,7 +382,7 @@ body {
 .newsletter-title {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
   text-align: Center;
@@ -497,7 +497,7 @@ body {
   background-image: url("../images/catalog-background.jpg");
   background-repeat: no-repeat;
   width: 1200px;
-  height: 412px;
+  min-height: 412px;
 }
 
 .search-catalog-hotel {
@@ -514,7 +514,7 @@ body {
   color: #ffffff;
   margin: 0;
   width: 495px;
-  height: 78px;
+
 }
 
 .breadcrumbs {
@@ -614,7 +614,6 @@ body {
   line-height: 24px;
   color: #ffffff;
   width: 143px;
-  height: 48px;
   margin: 0;
   border: none;
   padding: 0;
@@ -636,7 +635,7 @@ body {
   line-height: 20px;
   color: #ffffff;
   width: 191px;
-  height: 104px;
+  min-height: 104px;
   margin-top: 56px;
   display: flex;
   flex-direction: column;
@@ -655,7 +654,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   width: 191px;
-  height: 36px;
+  min-height: 36px;
   border: none;
   padding: 0;
 }
@@ -670,7 +669,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   width: 191px;
-  height: 36px;
+  min-height: 36px;
   border: none;
   padding: 0;
 }
@@ -680,7 +679,7 @@ body {
 .sorting {
   background-color: #ffffff;
   width: 1060px;
-  height: 49px;
+  min-height: 49px;
   display: flex;
   justify-content: flex-start;
   margin: 0 auto;
@@ -756,8 +755,7 @@ body {
 
 .hotel-size-card {
   width: 337px;
-  height: 438px;
-  text-align: center;
+  min-height: 438px;
   border: 1px solid #e6e6e6;
 }
 
@@ -768,7 +766,7 @@ body {
 .hotel-card-grid {
   display: grid;
   grid-template-columns: 140px 20px 140px;
-  grid-template-rows: 28px 21px 36px 37px;
+  grid-template-rows: auto auto auto auto;
   row-gap: 16px;
   margin-left: 20px;
   margin-top: 16px;
@@ -778,6 +776,7 @@ body {
   grid-column: 1/-1;
   grid-row: 1/2;
   margin: 0;
+  justify-items: start;
 }
 
 .grid-hotel-name {
@@ -790,6 +789,7 @@ body {
   grid-column: 3/4;
   grid-row: 2/3;
   margin: 0;
+  text-align: right;
 }
 
 .grid-hotel-button {
