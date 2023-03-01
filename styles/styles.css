@@ -54,6 +54,10 @@ body {
 
 .button {
   cursor: pointer;
+  appearance: none;
+  border: none;
+  border-radius: none;
+  background: none;
 }
 
 /*  Хедер */
@@ -103,6 +107,41 @@ body {
   padding: 20px 16px;
 }
 
+.navigation-link:hover {
+  opacity: 0.6;
+}
+
+.navigation-link:focus {
+  outline: 2px solid #83b3d3;
+}
+.navigation-link:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.navigation-link:disabled {
+  opacity: 0.1;
+}
+
+.navigation-links {
+  text-decoration: none;
+}
+
+.selected-quantity {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7db54f;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+  left: 10px;
+  top: -40px;
+}
+
 .navigonion-link-current {
   position: relative;
 }
@@ -115,6 +154,21 @@ body {
   bottom: -2px;
   height: 2px;
   background-color: #756257;
+}
+
+.navigation-item:hover {
+  opacity: 0.6;
+}
+
+.navigation-item:focus {
+  outline: 2px solid #83b3d3;
+}
+.navigation-item:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.navigation-item:disabled {
+  opacity: 0.1;
 }
 
 .navigation-item-here {
@@ -341,10 +395,25 @@ body {
 
 .services-item-food {
   background-color: #ffffff;
+  background-image: url("../images/icons/advantage/food.svg");
+  background-repeat: no-repeat;
+  background-position: center 81px;
   width: 230px;
   min-height: 223px;
   list-style-type: none;
   padding: 81px 85px;
+}
+
+.services-item-home {
+  background-image: url("../images/icons/advantage/home.svg");
+  background-repeat: no-repeat;
+  background-position: center 81px;
+}
+
+.services-item-souvenir {
+  background-image: url("../images/icons/advantage/gift.svg");
+  background-repeat: no-repeat;
+  background-position: center 81px;
 }
 
 .services-title {
@@ -355,6 +424,9 @@ body {
   text-transform: uppercase;
   color: #000000;
   text-align: Center;
+  margin: 0 auto;
+  padding-top: 102px;
+  padding-bottom: 30px;
 }
 
 .services-description {
@@ -363,7 +435,9 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  text-align: Center;
+  text-align: center;
+  margin: 0 auto;
+
 }
 
 /* Раздел поиск гостиницы */
@@ -503,14 +577,30 @@ body {
   height: 40px;
   padding: 0;
   margin: 0;
-  margin-top: 5px;
-  margin-bottom: 5px;
+
 }
+
 
 .footer-social-item {
   width: 47px;
   height: 40px;
+  display: block;
   padding: 5px 0;
+}
+
+.footer-icon-vk {
+  margin: 0;
+  padding: 13px 11px;
+}
+
+.footer-icon-telegram {
+  margin: 0;
+  padding: 12px 15px;
+}
+
+.footer-icon-youtube {
+  margin: 0;
+  padding: 11px 12px;
 }
 
 .footer-contacts {
@@ -524,14 +614,17 @@ body {
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
+  text-decoration: none;
   text-align: center;
   color: #000000;
   margin: 0 auto;
+  padding-top: 5px;
   width: 720px;
 }
 
-.footer-logo {
-  width: 115px;
+.footer-logo-pic {
+display: block;
+padding: 9px;
 }
 
 /* Разметка каталога*/
@@ -763,7 +856,7 @@ body {
   border-radius: 4px;
   width: 292px;
   height: 49px;
-  padding: 14px 20px;
+
   margin-left: 200px;
 }
 
@@ -771,11 +864,6 @@ body {
   margin-left: 70px;
 }
 
-.sorting-view-card {
-  width: 16px;
-  height: 14px;
-  padding: 17px 17px 17px 16px;
-}
 
 .sorting-view {
   display: flex;
@@ -882,7 +970,10 @@ body {
   background-color: #f2f2f2;
   border-radius: 4px;
   padding-top: 9px;
+  padding-bottom: 8px;
 }
+
+
 
 .hotel-amara-title,
 .hotel-diablo-title,
@@ -918,6 +1009,8 @@ body {
   text-transform: uppercase;
   text-align: center;
   list-style-type: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .hotel-green-more,
