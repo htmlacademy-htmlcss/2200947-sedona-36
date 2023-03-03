@@ -60,6 +60,7 @@ body {
   background: none;
 }
 
+
 /*  Хедер */
 
 .navigation {
@@ -73,6 +74,10 @@ body {
 .header-logo {
   margin-left: 70px;
   position: relative;
+}
+
+logo-sait:hover {
+  opacity: 0.5;
 }
 
 .navigation-list {
@@ -437,7 +442,6 @@ body {
   color: #000000;
   text-align: center;
   margin: 0 auto;
-
 }
 
 /* Раздел поиск гостиницы */
@@ -542,6 +546,14 @@ body {
   border: 0;
 }
 
+.field:placeholder-shown {
+  background-color: #f2f2f2;
+}
+
+.field:not(:placeholder-shown) {
+  background-color: #82b3d3;
+}
+
 .newsletter-button {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
@@ -559,6 +571,7 @@ body {
 /* Футер */
 
 .page-footer-container {
+  position: relative;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -577,9 +590,7 @@ body {
   height: 40px;
   padding: 0;
   margin: 0;
-
 }
-
 
 .footer-social-item {
   width: 47px;
@@ -603,6 +614,25 @@ body {
   padding: 11px 12px;
 }
 
+.footer-icon {
+  width: 24px;
+  height: 17px;
+  padding: 11px 13px;
+}
+
+.footer-icon:hover {
+  fill: #68a2ca;
+}
+
+.footer-icon:focus {
+  fill: #68a2ca;
+}
+
+.footer-icon:active {
+  fill: #68a2ca;
+  opacity: 0.3;
+}
+
 .footer-contacts {
   width: 720px;
   text-align: center;
@@ -622,9 +652,33 @@ body {
   width: 720px;
 }
 
-.footer-logo-pic {
-display: block;
-padding: 9px;
+.contacts-phone:hover {
+  color: #756157;
+}
+
+.contacts-phone:focus {
+  color: #756157;
+}
+
+.contacts-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.logo-academy-footer:hover {
+  fill: #756157;
+}
+
+.logo-academy-footer:focus {
+  fill: #756157;
+}
+
+.logo-academy-footer:active {
+  fill: rgba(117, 97, 87, 0.3);;
+}
+
+.footer-logo {
+  display: block;
+  padding: 9px;
 }
 
 /* Разметка каталога*/
@@ -864,7 +918,6 @@ padding: 9px;
   margin-left: 70px;
 }
 
-
 .sorting-view {
   display: flex;
   justify-content: space-between;
@@ -972,8 +1025,6 @@ padding: 9px;
   padding-top: 9px;
   padding-bottom: 8px;
 }
-
-
 
 .hotel-amara-title,
 .hotel-diablo-title,
@@ -1093,4 +1144,60 @@ padding: 9px;
 
 .newsletter-subscribtion-catalog {
   color: #333333;
+}
+
+
+/* Состояния кнопок */
+/* Кнопка (хочу сюда, поиск гостиницы в седоне, подробнее) коричневая button-brown */
+
+.button-brown {
+  background: #756157;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+}
+
+.button-brown:hover {
+  background-color: #615048;
+}
+
+.button-brown:focus {
+  background-color: #615048;
+}
+
+.button-brown:active {
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-brown:disabled {
+  cursor: not-allowed;
+  background-color: #e5e5e5;
+}
+
+/* Кнопка (В избранное, Подписаться, Применить, цифры перехода страниц) голубая button-blue*/
+
+.button-blue {
+  background: #82b3d3;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+}
+
+.button-blue:hover {
+  background-color: #68a2ca;
+}
+
+.button-blue:focus {
+  background-color: #68a2ca;
+}
+
+.button-blue:active {
+  background-color: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-blue:disabled {
+  cursor: not-allowed;
+  background-color: #e5e5e5;
 }
