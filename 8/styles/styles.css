@@ -57,6 +57,7 @@ body {
   appearance: none;
   border: none;
   background: none;
+  padding: 0;
 }
 
 
@@ -75,7 +76,19 @@ body {
   position: relative;
 }
 
+.header-logo:hover {
+  opacity: 0.6;
+}
+
+.header-logo:focus {
+  opacity: 0.4;
+}
+
 logo-sait:hover {
+  opacity: 0.1;
+}
+
+.header-logo:hover {
   opacity: 0.5;
 }
 
@@ -139,8 +152,8 @@ logo-sait:hover {
   text-decoration: none;
   color: #ffffff;
   background-color: #7db54f;
-  border-radius: 10px;
-  padding: 5px;
+  border-radius: 50%;
+  padding: 4px 5px;
   position: relative;
   left: 10px;
   top: -40px;
@@ -595,39 +608,37 @@ logo-sait:hover {
   width: 47px;
   height: 40px;
   display: block;
-  padding: 5px 0;
+  position: relative;
 }
 
 .footer-icon-vk {
-  margin: 0;
+  margin: 0 auto;
   padding: 13px 11px;
+  position: absolute;
 }
 
 .footer-icon-telegram {
+  position: absolute;
   margin: 0;
   padding: 12px 15px;
 }
 
 .footer-icon-youtube {
+  position: absolute;
   margin: 0;
   padding: 11px 12px;
 }
 
-.footer-icon {
-  width: 24px;
-  height: 17px;
-  padding: 11px 13px;
-}
 
-.footer-icon:hover {
+.footer-icon:hover path{
   fill: #68a2ca;
 }
 
-.footer-icon:focus {
+.footer-icon:focus path{
   fill: #68a2ca;
 }
 
-.footer-icon:active {
+.footer-icon:active path{
   fill: #68a2ca;
   opacity: 0.3;
 }
@@ -663,15 +674,15 @@ logo-sait:hover {
   color: rgba(117, 97, 87, 0.3);
 }
 
-.logo-academy-footer:hover {
+.logo-academy-footer:hover path {
   fill: #756157;
 }
 
-.logo-academy-footer:focus {
+.logo-academy-footer:focus path {
   fill: #756157;
 }
 
-.logo-academy-footer:active {
+.logo-academy-footer:active path {
   fill: rgba(117, 97, 87, 0.3);
 }
 
@@ -878,7 +889,7 @@ logo-sait:hover {
 .sorting {
   background-color: #ffffff;
   width: 1060px;
-  min-height: 49px;
+  min-height: 48px;
   display: flex;
   justify-content: flex-start;
   margin: 0 auto;
@@ -901,41 +912,75 @@ logo-sait:hover {
 }
 
 .select-control {
+  width: 292px;
+  height: 49px;
+  padding: 11px 18px;
+  padding-right: 40px;
+  margin-left: 200px;
+  background-color: inherit;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: #000000;
-  border: 2px solid #e5e5e5;
-  border-radius: 4px;
-  width: 292px;
-  height: 49px;
+  color: #333333;
+  appearance: none;
+  background-image: url("../images/tick.svg");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  cursor: pointer;
 
-  margin-left: 200px;
+}
+
+.select-control:hover {
+  border: 2px solid #68a2ca;
+}
+
+.select-control:focus-visible {
+  border: 2px solid #68a2ca;
+  outline: none;
+}
+
+.select-control:active {
+  border: 2px solid #3f5e72;
+}
+
+.select-control:disabled {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
+  pointer-events: none;
 }
 
 .sorting-view-hotel {
   margin-left: 70px;
 }
 
+.button-sorting {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
 
 .sorting-view {
   display: flex;
-  justify-content: space-between;
   gap: 8px;
+  justify-content: space-between;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 .sorting-view-card-button {
-  padding: 17px 16px;
+  padding: 15px 14px;
   border: 2px solid #000000;
   border-radius: 4px;
 }
 
 .sorting-view-card-deployed {
-  padding: 17px 16px;
+  padding: 15px 14px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
 }
@@ -949,7 +994,7 @@ logo-sait:hover {
 }
 
 .sorting-view-card-list {
-  padding: 17px 16px;
+  padding: 15px 14px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
 }
