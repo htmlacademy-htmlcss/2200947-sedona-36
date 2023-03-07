@@ -100,12 +100,7 @@ logo-sait:hover {
   margin-left: 70px;
   margin-right: 70px;
 }
-/*
-.navigonion-user .navigonion-link {
-  min-width: 44px;
-  min-height: 64px;
-}
-*/
+
 .navigonion-user {
   max-width: 269px;
   margin-left: auto;
@@ -157,6 +152,7 @@ logo-sait:hover {
   left: 10px;
   top: -40px;
 }
+
 
 .navigonion-link-current {
   position: relative;
@@ -1075,12 +1071,26 @@ input[type="radio"]:focus-visible {
   width: 20px;
   height: 20px;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #ffffff;
   border: none;
   top: -8px;
   margin: 0;
   padding: 0;
   cursor: pointer;
+}
+
+.range-toggle:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:focus {
+  border: 3px solid #83b3d3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:active {
+  border: 2px solid #83b3d3;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
 }
 
 .buttons-container {
@@ -1689,7 +1699,7 @@ input[type="radio"]:focus-visible {
   background-size: 16px 15px;
   border: none;
   appearance: none;
-  opacity: 0.3;
+
   cursor: pointer;
 }
 
@@ -1755,8 +1765,38 @@ input[type="radio"]:focus-visible {
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
-  color: #000;
+  color: #000000;
   margin-left: auto;
+  opacity: 0.6;
+}
+
+.modal-close:active {
+  background-color: #e6e6e6;
+}
+
+.modal-close:active::after {
+  opacity: 0.3;
+}
+
+.booking-date-field:hover {
+  background-color: #e6e6e6;
+  outline: transparent;
+}
+
+.booking-date-field:focus {
+  opacity: 1;
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
+}
+
+.booking-date-field:focus-visible {
+  background-color: #e6e6e6;
+  order: 3px solid #83b3d3;
+}
+
+.booking-date-field:active {
+  background-color: #f2f2f2;
+  outline: 2px solid #000000;
 }
 
 .booking-date {
@@ -1872,14 +1912,12 @@ input[type="number"] {
   transform: rotate(90deg);
 }
 
-.modal-close:hover,
-.booking-date-field:hover {
+.modal-close:hover {
   background-color: #e6e6e6;
   outline: transparent;
 }
 
-.modal-close:focus,
-.booking-date-field:focus {
+.modal-close:focus {
   background-color: #e6e6e6;
   outline: 3px solid #83b3d3;
 }
@@ -1890,11 +1928,6 @@ input[type="number"] {
 
 .modal-close:active::after {
   opacity: 0.3;
-}
-
-.booking-date-field:active {
-  background-color: #f2f2f2;
-  outline: 2px solid #000;
 }
 
 .calendar-icon:hover,
@@ -1987,8 +2020,6 @@ input[type="number"] {
 .modal.submit-button:active span {
   opacity: 0.3;
 }
-
-
 
 .modal-container-close {
   display: none;
