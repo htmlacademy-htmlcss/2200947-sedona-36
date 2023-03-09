@@ -71,7 +71,7 @@ body {
 }
 
 .header-logo {
-  margin-left: 44px;
+  margin-left: 70px;
   position: relative;
 }
 
@@ -97,7 +97,7 @@ logo-sait:hover {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 70px;
+  margin-left: 28px;
   margin-right: 70px;
 }
 
@@ -115,7 +115,10 @@ logo-sait:hover {
   text-decoration: none;
   color: #000000;
   display: block;
-  padding: 20px 16px;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .navigation-link:hover {
@@ -133,10 +136,6 @@ logo-sait:hover {
   opacity: 0.1;
 }
 
-.navigation-links {
-  text-decoration: none;
-}
-
 .selected-quantity {
   font-size: 10px;
   line-height: 10px;
@@ -149,10 +148,9 @@ logo-sait:hover {
   border-radius: 50%;
   padding: 4px 5px;
   position: relative;
-  left: 10px;
-  top: -40px;
+  left: 7px;
+  top: -46px;
 }
-
 
 .navigonion-link-current {
   position: relative;
@@ -184,7 +182,7 @@ logo-sait:hover {
 }
 
 .navigation-item-here {
-  padding: 14px 0 14px 20px;
+  padding: 16px 0 14px 20px;
 }
 
 .navigonion-link-color {
@@ -196,7 +194,8 @@ logo-sait:hover {
   display: block;
   width: 20px;
   height: 20px;
-  padding: 22px 12px;
+  padding: 20px 12px;
+  text-decoration: none;
 }
 
 .navigation-link-here {
@@ -236,7 +235,8 @@ logo-sait:hover {
 .main-benefits {
   background-color: #ffffff;
   width: 1200px;
-  padding: 69px 0;
+  padding-top: 69px;
+  padding-bottom: 90px;
 }
 
 .main-benefits-sity-intro {
@@ -384,6 +384,8 @@ logo-sait:hover {
   text-transform: uppercase;
   color: #000000;
   text-align: Center;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .services-intro-promo {
@@ -393,6 +395,7 @@ logo-sait:hover {
   line-height: 26px;
   color: #333333;
   text-align: Center;
+  margin: 0 auto;
 }
 /* Раздел сервис */
 
@@ -437,8 +440,8 @@ logo-sait:hover {
   color: #000000;
   text-align: Center;
   margin: 0 auto;
-  padding-top: 102px;
-  padding-bottom: 30px;
+  padding-top: 105px;
+  padding-bottom: 33px;
 }
 
 .services-description {
@@ -469,6 +472,7 @@ logo-sait:hover {
   text-transform: uppercase;
   color: #000000;
   text-align: Center;
+  margin: 0;
 }
 
 .search-hotel-ordering {
@@ -478,12 +482,13 @@ logo-sait:hover {
   line-height: 26px;
   color: #333333;
   text-align: Center;
+  margin: 0;
   padding-top: 20px;
 }
 
 .search-hotel-link {
   text-align: Center;
-  padding-top: 54px;
+  padding-top: 62px;
 }
 
 .search-hotel-link-on {
@@ -509,6 +514,7 @@ logo-sait:hover {
   background-image: url("../images/index-background-bottom.jpg");
   background-repeat: no-repeat;
   background-size: 1200px 415px;
+  background-color: #68a2ca;
   text-align: Center;
   height: 215px;
   margin: 0;
@@ -516,6 +522,17 @@ logo-sait:hover {
 }
 
 .newsletter-title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: Center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.newsletter-titles {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -531,6 +548,7 @@ logo-sait:hover {
   font-size: 22px;
   line-height: 26px;
   text-align: Center;
+  margin: 0 auto;
 }
 
 .newsletter-form {
@@ -539,6 +557,7 @@ logo-sait:hover {
   width: 684px;
   margin: 0;
   padding-top: 54px;
+  padding-bottom: 106px;
 }
 
 .field {
@@ -682,7 +701,7 @@ logo-sait:hover {
 
 .footer-logo {
   display: block;
-  padding: 9px;
+  padding: 9px 0;
 }
 
 /* Разметка каталога*/
@@ -698,6 +717,7 @@ logo-sait:hover {
 .catalog-backgraund {
   background-image: url("../images/catalog-background.jpg");
   background-repeat: no-repeat;
+  background-color: #68a2ca;
   width: 1200px;
   min-height: 412px;
 }
@@ -845,7 +865,7 @@ logo-sait:hover {
 }
 
 .catalog-filter-group-middle {
-  margin-right: 167px;
+  margin-right: 140px;
 }
 
 .catalog-filter-group-right {
@@ -1130,6 +1150,7 @@ input[type="radio"]:focus-visible {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  text-transform: uppercase;
   color: #000000;
   margin: 0;
 }
@@ -1232,7 +1253,6 @@ input[type="radio"]:focus-visible {
 .card-search {
   background-color: #ffffff;
   width: 1200px;
-  margin-bottom: 40px;
 }
 
 .hotel-list {
@@ -1242,20 +1262,23 @@ input[type="radio"]:focus-visible {
   flex-wrap: wrap;
   position: relative;
   list-style-type: none;
-  row-gap: 40px;
+  row-gap: 20px;
   column-gap: 20px;
-  padding: 0;
+  padding-bottom: 40px;
+  padding-left: 0;
+  border-bottom: 1px solid #e6e6e6;
   margin: 0 auto;
 }
 
 .hotel-size-card {
-  width: 337px;
-  min-height: 438px;
+  width: 338px;
+  min-height: 434px;
   border: 1px solid #e6e6e6;
 }
 
 .hotel-image {
-  margin: 20px 20px 0;
+  margin: 15px 19px 0;
+  display: block;
 }
 
 .hotel-card-grid {
@@ -1386,7 +1409,7 @@ input[type="radio"]:focus-visible {
 .conteiner-star::before {
   position: relative;
   content: url("../images/icons/star.svg");
-  top: 9px;
+  top: 5px;
 }
 
 /* Пагинация */
@@ -1451,6 +1474,7 @@ input[type="radio"]:focus-visible {
 
 .newsletter-title-catalog {
   color: #000000;
+  padding-top: 96px;
 }
 
 .newsletter-subscribtion-catalog {
@@ -1791,7 +1815,7 @@ input[type="radio"]:focus-visible {
 
 .booking-date-field:focus-visible {
   background-color: #e6e6e6;
-  order: 3px solid #83b3d3;
+  outline: 3px solid #83b3d3;
 }
 
 .booking-date-field:active {
