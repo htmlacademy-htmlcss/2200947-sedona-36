@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Город Седона</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" type="image/svg" sizes="32x32" href="images/favicon.svg" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <base href="https://htmlacademy-htmlcss.github.io/2200947-sedona-36/master/">
+</head>
+
+  <body>
+    <!-- Хедер -->
+
+    <header class="page-header">
+      <nav class="navigation">
+        <a href="index.html" class="header-logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="140"
+            height="70"
+            fill="none"
+          >
+            <g clip-path="url(#a)">
+              <path
+                fill="#81B3D3"
+                d="M140 0H0l60.36 65.7c5.28 5.8 14 5.8 19.28 0L140 0Z"
+              />
+              <path fill="#23A9E1" d="M37.23.5 69.8 38.4 102.26.7 37.23.5Z" />
+              <path
+                fill="#fff"
+                d="M61.99 14.7h17.55c-1.32-.8-4.47-4.6-6.1-3.2-.1.1-4.96-5.7-8.1-2.9-2.75 2.5-4.06-.3-7.1 1.6-3.66 2.4 2.02 3.7 3.75 4.5Zm27.08-3.5-9.94.1c3.96-4.5 5.68-4 9.94-.1Z"
+              />
+              <path
+                fill="#491213"
+                d="M99.01 3.6V1.2h2.13l-2.13 2.4ZM49.11 13c.1.1 2.43-2.4 6.18-4.9 3.45-2.3 8.72-4.9 14.6-4.9 5.9 0 11.27 2.7 14.72 5 3.75 2.4 6.09 4.8 6.19 4.9l-2.54 3c-4.56.6-7.81 3.9-12.27 3.2-2.24-.4-2.34-1.6-2.95-2.9-.5-1-1.32-.8-2.33-1.2-.91-.4-1.52-1.1-3.45-.7-1.62.4-1.83 2.9-3.96 2.8-1.11-.1-1.21-1.6-2.84-3.6-4.16-4.9-7.95-4.29-10.59.21L49.1 13ZM40.57 1.2v1.9l-1.62-1.9h1.62Zm54.68 0h3.25v3L95.26 8V1.2ZM91.1 12.6V1.2h3.55v7.4l-3.55 4Zm-.5-10.4v9.9a26.33 26.33 0 0 0-3.66-3l3.65-6.9Zm-4.17-.3v6.8c-.5-.3-.9-.7-1.52-1-.7-.4-1.42-.9-2.23-1.3l3.75-4.5Zm-4.46-.2V6c-1.01-.5-2.13-1-3.14-1.5l3.14-2.8Zm.61-.5h3.75l-3.75 4.6V1.2Zm4.36 0h3.65l-3.65 7.1V1.2Zm-8.93 0h3.96l-3.55 3.1c-.1 0-.2-.1-.3-.1l-.1-3Zm-.5.4V4c-1.02-.4-2.03-.7-3.15-.9l3.15-1.5Zm-4.26 0v1.3L71 2.6l2.24-1Zm-6.9 0 2.23 1c-.81 0-1.52.1-2.23.3V1.6Zm-4.16 0 3.14 1.5c-1.11.2-2.13.5-3.14.9V1.6Zm3.65 1.2L62.5 1.2h3.35v1.6Zm3.55-.4-2.84-1.3h2.84v1.3Zm.71-1.2h2.94L70.1 2.5V1.2Zm3.76 0h3.24l-3.24 1.6V1.2ZM61.28 4.3l-3.56-3.1h3.96v3l-.4.1Zm-3.66-2.6 3.15 2.7c-1.12.4-2.13.9-3.15 1.5V1.7Zm-4.36.2 3.65 4.5a22.9 22.9 0 0 0-3.65 2.4V1.9ZM49 2.2l3.65 7c-1.32 1-2.53 2-3.65 3.2V2.2Zm3.75 6L49.1 1.1h3.65v7.1Zm4.37-2.5-3.76-4.6h3.76v4.6ZM44.33 7.5 41.1 3.7V1.2h3.24v6.3Zm.61-6.3h3.55v11.2l-3.55-4.2v-7ZM36.52 0v14.6L70 54.5 103.48 15V0H36.52Z"
+              />
+              <path
+                fill="#23A9E1"
+                d="M67.36 46 70 41.8l2.64 4.2L70 50.2 67.36 46Z"
+              />
+              <path
+                fill="#DC6243"
+                d="M75.28 30.6c-3.45-2-2.64-3.5.2-4.9 1.52-.7 4.87-3.4 6.19-2.5l-6.4 7.4Zm-2.34 2.5c-2.03-.1-4.36-.4-6.39.1 1.22.3 4.26 1.2 1.42 1.9 1.02 1.4 2.64 1.3 3.65.1-.4-.2-.7-.5-1.01-.7 1.11-.3 2.13-.9 2.33-1.4Zm1.22-1.6c-.91-.8-1.93-.8-2.74 0-1.22-2.1-5.48-1.4-7.5-1.7 1.1 2.6 9.73 3.1 10.24 1.7Zm-6.9-2.2c-1.62-.5-6.9-.4-3.45-1.8 1.12-.4 6.8.1 3.45 1.8Zm2.03-3c-.5-1.1.4-2.4 1.72-1.4 1.22.8-.6 2-1.72 1.4Zm-2.94.1c-2.34.7-5.38-.8-1.63-1.5 2.34-.5 4.77.5 1.63 1.5.1 0-.1 0 0 0Zm-2.64-6.2c-.5 1.6-1.52 1.9-1.42 0 .1-2.3 1.62-1.7 3.25-2.6 1.31-.7 2.03-3.4 4.36-1.8 1.01.7 2.23.1 2.53 1.2 0-.1-2.94 6.7-1.31 6.7-3.25 0-1.83-3.8-.61-6.4-1.22.6-3.15 4.3-1.52 5-.82 1.1-3.45 2.6-4.77 1.5-1.12-1-.51-2.3-.51-3.6ZM59.65 23c-5.68 0-1.82-8.6.1-8.1 2.24.7 1.93 8.2-.1 8.1Zm-6.29-8.2c-2.64-.1-1.52-2.6.3-3.1 1.73-.5 5.28 1.1 6.5 2.2-1.83.6-4.16.5-6.19.6-.2-2-.7-1.3-.6.3Z"
+              />
+              <path
+                fill="#F49774"
+                d="M72.84 25.8c-2.94-3 4.36-2.7 5.58-3.8.81.3 7.1-5.4 8.62-5-1.11 1.3-3.45 5.3-5.07 5.3-1.32 0-2.64-.2-3.65.7-1.52 1.4-3.96 2.1-5.48 2.8Z"
+              />
+              <path
+                fill="#F4B1A4"
+                d="M73.75 22.2c-1.62.9-3.14-2.5-.3-2.2 1.83.2 3.75-.2 5.48.1a5.99 5.99 0 0 1-5.18 2.1Z"
+              />
+              <path
+                fill="#fff"
+                d="M51.84 20.9c.3.4.6.8.5 1.4 0 .4-.6 1-.2 1.2l1.53-1.8c-.4-.1-3.55-3.8-3.55-4.2l-2.13 1.1c.1.4.8 0 1.21 0 .51 0 .92.4 1.32.7-1.11.9-3.85 3.3-4.16 3.3-.1 0-.7-.4-.7 0 0 .2.6.7.7.8l1.42 1.7c.4-.2-.1-.5.1-.8.1-.2 3.25-2.7 3.96-3.4Zm-3.45-4.5c.3-.1.4.3.61 0l-1.62-1.9c-.2-.3-.51-.6-.51 0 .1.4-4.06 3.7-4.26 3.8-.3.1-.5-.3-.71.1l1.42 1.7c.2.2.3.4.5.6.2.2.1-.4.1-.4-.1-.3.31-.6.62-.8 1.01-1 3.55-3.1 3.85-3.1Zm-5.78-.6c-1.12.3-2.44-.1-2.74-1.3-.4-1.2.4-2.4 1.32-3.1.91-.7 2.33-.6 2.84.5.2.5.1 1.1-.1 1.6-.1.3-.4.6 0 .8.6-.7 1.11-1.4 1.72-2.1-.7-.4-1.01-1.1-1.52-1.7-.6-.7-1.32-1.4-2.33-1.5-1.93-.3-3.65 1.7-3.86 3.4-.1.9.2 1.8.81 2.6.51.6 1.22 1.1 1.63 1.8.2.1 1.82-.7 2.13-.8.2 0 .1-.1.1-.2-.5.2 0 0 0 0Zm25.87 23.6c-.71-.5-2.64-3-3.05-3.5l-.2-.3-.2.1c-.1.1.1.4 0 .6-.5.8-3.75 3.2-3.96 3.4-.4.2-.8-.1-1.01.2.5.6 1.82 2.3 2.03 2.3.3 0 .1-.5.1-.6.1-.2 1.72-1.6 2.33-2.1.2-.2.4.3.61.5.2.3.3.7.2 1-.1.2-.5.6-.2.8.4-.5 1.52-1.8 1.73-2 .2-.2-.41 0-.3-.1-.21.1-.52.2-.72 0-.1 0-.71-.7-.6-.8.3-.2.6-.6 1-.7.62-.1 1.02 1 1.12 1.4.1.4.1.8-.1 1.1-.1.3-.3.5 0 .6l1.42-1.9c0 .1-.1.1-.2 0-.1 0 .1.1 0 0Zm-9.34-8.9c-.7 0-1.42.3-2.02.8a3.52 3.52 0 0 0-.51 4.8c1.32 1.7 3.45 1.9 5.17.7a3.52 3.52 0 0 0 .51-4.8 4.1 4.1 0 0 0-3.14-1.5Zm1.22 1.4c.92-.1 1.52.8 1.12 1.8-.4 1-1.42 2-2.44 2.4-1.21.5-2.03-.5-1.52-1.7.4-1 1.42-2 2.44-2.4.1 0 .2-.1.4-.1Zm-2.84-4.6c.3 0 .61.4.81 0l-1.42-1.7c-.4.2 0 .4-.1.6-.2.3-1.72.5-2.13.6.1-.4.61-1.7.81-1.8.4-.3.61.3.81-.1l-1.82-2.1c-.2-.2-.4-.7-.61-.4 0 0 0 1-.1 1.1-.1.2-.61 2.4-1.22 2.9-.3.3-1.52 1.3-1.83 1.4-.3.1-.5-.4-.8 0l1.62 1.9c.1.1.4.6.5.6.3.1 0-.6.1-.7.1-.3 1.63-1.8 2.34-1.9.91-.2 2.03-.5 3.04-.4.2 0-.2 0 0 0ZM82.07 34c.1.4.2.9.1 1.3-.1.6-.6 1.9-1.42 1.5-.8-.4-1.42-1.1-2.13-1.7.51-.6 1.02-1.1 1.93-.8.2.1.4 0 .2-.2-.3-.2-2.03-1.3-2.13-1.2-.2.2.3.6.1 1-.1.3-.4.5-.6.8-.51-.4-1.22-.8-.71-1.5.4-.4.8-.8 1.42-.9.4-.1 1.21.3 1.31-.1-.7-.3-1.42-.7-2.13-1 .1.5-2.23 2.9-2.73 3.5-.1.1-.41.4-.41.5 0 .3.4.1.4.1.31-.1 4.47 3.3 4.57 3.6.1.2-.1.4 0 .5 0 0 .1.1.2.1.3-.3 2.95-3.9 3.55-4l-1.52-2.4c-.4.2-.1.7 0 .9Zm-4.06 4.4c-1.31-.9-3.65.8-4.05 1-.71.3-1.22-.4-.81-1 .3-.5.9-.8 1.52-.8.2 0 .91.1.91 0 .1-.1.1-.1 0-.2-.6-.4-1.12-.8-1.72-1.1-.1.7-.92 1.1-1.32 1.6-.51.6-1.02 1.3-1.02 2s.4 1.4 1.12 1.7c.7.4 1.52.1 2.23-.3.4-.3.81-.6 1.22-.8.6-.3 1.52 0 1.32.8-.2.7-.92 1.3-1.63 1.5-.4.1-.8.1-1.21-.1-.3-.1-.61-.5-.82-.1l2.34 1.6c.1-.5.3-.7.7-1 .51-.4.92-.9 1.33-1.4.8-.9 1.11-2.5-.1-3.4Zm17.86-28.1c0 .1 0 .1 0 0l-.91 1-.81 1c-.2.2-.3.3 0 .5.5-.3 3.55 4.8 3.34 5.5-.5.2-4.56-3.3-4.66-3.5 0-.1.2-.7-.1-.6-.1 0-.51.6-.61.7l-.61.7c.2.3.3 0 .6 0 .2.1 1.22.9 1.53 1.1-.51 0-1.73.1-1.93.1-.6.1-.3-.4-.71-.6L89.48 18l-.91 1v.1c.2.2.1.1.4 0 .3-.1 4.36 3.2 4.46 3.4.2.3-.1.6.3.8l1.23-1.4c.1-.1.1-.1 0-.1-.3-.2-.3.1-.71.1-.3-.1-2.95-2.2-3.86-3l5.38-.2c.2 0 .7.6.7.8-.1.2-.3.4 0 .5.31-.4.62-.7.92-1.1l.1-.2c.1 0 .1-.1.1-.2l.1-.1c.31-.3 1.22-1.3 1.12-1.4-.3-.3-.4.3-.81 0-.2-.2-.81-1.2-.91-1.4-.2-.3.4-.6.6-.7.51-.3 2.14-.8 2.34.2 0 .2-.2.4-.1.5 0 0 .1.2.2.1l2.13-2.6-.2-.2c-.5.5-5.58-1.5-5.89-1.8-.1-.2-.1-.8-.3-.8Zm-.2 2.6c.8.3 1.52.6 2.33 1l-.6.3c-.21.1-.41.3-.62.5l-1.11-1.8Zm-6.7 7.7a3.7 3.7 0 0 0-3.04 1.3c-1.22 1.5-1.12 3.7.4 4.9 1.53 1.2 3.76.9 4.97-.5 1.22-1.5 1.12-3.7-.4-4.9-.5-.4-1.22-.7-1.93-.8Zm-1.42 1.6c.6 0 1.32.4 1.73.7.8.5 2.23 1.7 1.52 2.7 0-.1.1-.1-.1.1-.82.8-2.24.1-2.95-.5-.7-.5-2.03-1.7-1.21-2.7.3-.2.6-.3 1.01-.3Zm-3.14 4.3a4 4 0 0 0-3.35 1.6c-.61.8-1.32 1.5-1.93 2.3.2.3.5-.1.81.1.3.2 4.16 3.3 4.16 3.5.1.3-.2.4.1.6.1.1 2.94-3.4 3.25-4 .4-1.1.1-2.4-.81-3.2.1.1.2.1 0 0-.81-.6-1.52-.9-2.23-.9Zm-1.12 1.6h.3c1.42.4 3.45 2.1 2.13 3.6l-.4.4c-.2.2-4.26-3-4.06-3.2.4-.5 1.32-.9 2.03-.8Z"
+              />
+            </g>
+            <defs>
+              <clipPath id="a">
+                <path fill="#fff" d="M0 0h140v70H0z" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <!--  <img
+            src="images/logo/logo.svg"
+            width="140"
+            height="70"
+            alt="Логотип сайта города Седона."
+          />-->
+        </a>
+
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link navigonion-link-current" href="index.html"
+              >Главная</a
+            >
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+
+        <ul class="navigation-list navigonion-user">
+          <li class="navigation-item">
+            <a class="navigation-links" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="none"
+              >
+                <path
+                  fill="#000"
+                  d="m19.5 18-3.7-3.67c1-1.3 1.7-2.98 1.7-4.87a8 8 0 0 0-8-7.96c-4.4 0-8 3.68-8 8.06a8 8 0 0 0 12.9 6.26l3.7 3.68 1.4-1.5Zm-10-2.48a6 6 0 0 1-6-5.96 6 6 0 0 1 12 0 6 6 0 0 1-6 5.96Z"
+                />
+              </svg>
+              <span class="visually-hidden">Поиск.</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-links navigonion-link-heart" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="17"
+                fill="none"
+              >
+                <path
+                  fill="#000"
+                  d="M8.9 17a.9.9 0 0 1-.8-.4c-5.4-6.1-6.7-7.5-7-7.9A5.4 5.4 0 0 1 5.5 0C6.8 0 8 .5 9 1.3a5.46 5.46 0 0 1 9 4.1c0 1.3-.5 2.5-1.3 3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5c.3.4 3.5 4 6.1 6.9l6.2-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4-.7-.8-1.7-1.3-2.7-1.3-1.8 0-3.3 1.5-3.3 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z"
+                />
+              </svg>
+              <span class="selected-quantity">12</span>
+              <span class="visually-hidden">Избранное.</span>
+            </a>
+          </li>
+          <li class="navigation-item-here">
+            <a
+              class="button-brown navigation-link-here navigonion-link-color"
+              href="#"
+              >Хочу сюда!</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Основная часть-->
+
+    <main class="main-container main-index">
+      <div class="page-container">
+        <h1 class="visually-hidden">Город Седона.</h1>
+        <section class="section-hero">
+          <img
+            class="hero-welcome"
+            src="images/welcome.svg"
+            width="458"
+            height="352"
+            alt="Добро пожаловать в великолепныйгород Седона."
+          />
+        </section>
+
+        <!-- Раздел приемуществ -->
+
+        <div class="main-benefits">
+          <h2 class="main-benefits-sity-intro">
+            Седона — небольшой городок в Аризоне,<br />заслуживающий большего!
+          </h2>
+          <p class="main-benefits-intro">
+            Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
+          </p>
+        </div>
+
+        <section class="advantages">
+          <h2 class="visually-hidden">Приемущества.</h2>
+
+          <ul class="advantages-list">
+            <li class="advantages-item">
+              <div class="advantages-item-basic-1">
+                <h3 class="advantages-title">Настоящий<br />городок</h3>
+                <p class="advantages-description">
+                  Седона — не аттракцион для<br />туристов, там течёт своя<br />жизнь
+                </p>
+              </div>
+              <img
+                class="advantages-list-image-1-pic"
+                src="images/photo-1.jpg"
+                width="800"
+                height="384"
+                alt="Вид на город."
+              />
+            </li>
+            <li class="advantages-item-basic-2">
+              <h3 class="advantages-title">Небольшая<br />площадь</h3>
+              <p class="advantages-description">
+                Все достопримечательности<br />находятся очень близко
+              </p>
+            </li>
+            <li class="advantages-item-basic-3">
+              <h3 class="advantages-title">Красивая<br />дорога</h3>
+              <p class="advantages-description">
+                Ехать в Седону из Лас-Вегаса<br />совсем не скучно!
+              </p>
+            </li>
+            <li class="advantages-item-basic-4">
+              <h3 class="advantages-title">Мало<br />туристов</h3>
+              <p class="advantages-description">
+                Большинство едет в Гранд<br />Каньон и толпится там
+              </p>
+            </li>
+            <li class="advantages-item">
+              <img
+                class="advantages-list-image-2-pic"
+                src="images/photo-2.jpg"
+                width="800"
+                height="384"
+                alt="Вид на Гранд Каньон."
+              />
+              <div class="advantages-item-basic-5">
+                <h3 class="advantages-title">Там есть<br />мост дьявола</h3>
+                <p class="advantages-description">
+                  Да, по нему можно пройти!<br />Если вы осмелитесь,<br />разумеется
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Раздел сервис -->
+
+        <div class="services">
+          <h2 class="services-intro">
+            Приезжайте в Седону отдохнуть<br />в комфорте и уюте!
+          </h2>
+          <p class="services-intro-promo">
+            Опытный персонал и качественное обслуживание!
+          </p>
+        </div>
+
+        <h2 class="visually-hidden">Сервис.</h2>
+        <ul class="services-list">
+          <li class="services-item-home">
+            <h3 class="services-title">Жильё</h3>
+            <p class="services-description">
+              Рекомендуем пожить<br />в настоящем мотеле,<br />всё как в кино!
+            </p>
+          </li>
+          <li class="services-item-food">
+            <h3 class="services-title">Еда</h3>
+            <p class="services-description">
+              Всегда заказывайте<br />топовый фирменный бургер,<br />вы не
+              разочаруетесь!
+            </p>
+          </li>
+          <li class="services-item-souvenir">
+            <h3 class="services-title">Сувениры</h3>
+            <p class="services-description">
+              Не только китайского,<br />но и настоящего местного<br />производства!
+            </p>
+          </li>
+        </ul>
+
+        <!-- Раздел поиск гостиницы -->
+
+        <section class="search-hotel">
+          <h2 class="visually-hidden">Переход в поиск гостиницы.</h2>
+          <div class="search-hotel-block">
+            <h2 class="search-hotel-question">Заинтересовались?</h2>
+            <p class="search-hotel-ordering">
+              Укажите предполагаемые даты поездки,<br />и мы покажем вам лучшие
+              предложения гостиниц в Седоне
+            </p>
+          </div>
+          <div class="search-hotel-link">
+            <a class="button-brown search-hotel-link-on" href="#"
+              >ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a
+            >
+          </div>
+        </section>
+
+        <!-- Раздел рассылка -->
+
+        <section class="newsletter-index">
+          <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
+          <p class="newsletter-subscribtion">
+            Только полезная информация и никакого спама,<br />честное
+            бойскаутское!
+          </p>
+
+          <form
+            class="newsletter-form"
+            action="https://echo.htmlacademy.ru/"
+            method="post"
+          >
+            <label class="visually-hidden" for="newsletter-email"></label>
+            <input
+              class="field"
+              type="email"
+              name="newsletter-email"
+              placeholder="Ваш e-mail"
+              required
+            />
+            <button class="button-blue button newsletter-button" type="submit">
+              <span class="newsletter-title">Подписаться</span>
+            </button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <!-- Футер -->
+
+    <footer class="footer">
+      <div class="page-footer-container">
+        <section class="footer-social">
+          <h2 class="visually-hidden">Соцсети.</h2>
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a
+                class="button icon-vk footer-icon"
+                href="https://vk.com/htmlacademy_ru"
+              >
+                <span class="visually-hidden">ВКонтакте.</span>
+                <svg
+                  class="footer-icon-vk"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="15"
+                  fill="none"
+                >
+                  <path
+                    fill="#83B3D3"
+                    fill-rule="evenodd"
+                    d="M24.116 1.804c.166-.546 0-.948-.795-.948h-2.625c-.668 0-.976.347-1.143.73 0 0-1.335 3.196-3.226 5.272-.612.602-.89.793-1.224.793-.167 0-.418-.19-.418-.738V1.804c0-.656-.184-.948-.74-.948H9.817c-.417 0-.668.304-.668.593 0 .621.946.765 1.043 2.513V7.76c0 .833-.153.984-.487.984-.89 0-3.055-3.21-4.34-6.885-.249-.715-.5-1.003-1.172-1.003H1.566c-.75 0-.9.347-.9.73 0 .682.89 4.07 4.145 8.551 2.17 3.06 5.225 4.72 8.008 4.72 1.67 0 1.875-.369 1.875-1.004V11.54c0-.737.158-.884.687-.884.39 0 1.057.192 2.615 1.667 1.78 1.75 2.073 2.533 3.075 2.533h2.625c.75 0 1.126-.368.91-1.096-.238-.724-1.088-1.775-2.215-3.022-.612-.71-1.53-1.475-1.809-1.858-.389-.49-.278-.71 0-1.147 0 0 3.2-4.426 3.533-5.929h.001Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a
+                class="button icon-telegram footer-icon"
+                href="https://www.t.me/htmlacademy"
+              >
+                <span class="visually-hidden">Телеграмм.</span>
+                <svg
+                  class="footer-icon-telegram"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="16"
+                  fill="none"
+                >
+                  <path
+                    fill="#83B3D3"
+                    d="M16.785.956.84 7.104C-.248 7.541-.24 8.148.64 8.42l4.094 1.277 9.472-5.976c.448-.272.857-.126.52.173l-7.673 6.925H7.05l.002.001-.283 4.22c.414 0 .597-.19.829-.414l1.988-1.934 4.136 3.055c.762.42 1.31.205 1.5-.706l2.715-12.795c.278-1.114-.425-1.618-1.153-1.29Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a
+                class="button icon-youtube footer-icon"
+                href="https://www.youtube.com/user/htmlacademy.ru"
+              >
+                <span class="visually-hidden">Ютуб.</span>
+                <svg
+                  class="footer-icon-youtube"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="23"
+                  height="18"
+                  fill="none"
+                >
+                  <path
+                    fill="#83B3D3"
+                    d="M18.94.356H3.507C1.647.356.333 1.95.333 3.756V13.85c0 1.913 1.314 3.506 3.174 3.506H19.16c1.642 0 3.174-1.593 3.174-3.4v-10.2c-.219-1.806-1.532-3.4-3.393-3.4ZM7.995 12.894V4.819l7.333 4.037-7.333 4.038Z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="footer-contacts">
+          <a class="contacts-phone" href="tel:88128121212"
+            >+7 (812) 812-12-12</a
+          >
+        </section>
+
+        <section class="footer-logo">
+          <a class="logo-academy-footer" href="https://htmlacademy.ru/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="115"
+              height="34"
+              fill="none"
+              viewBox="0 0 115 34"
+            >
+              <path
+                fill="#000"
+                d="M0 13.256v2.6h2.5v-2.6H0ZM11.6 4.856c-1.6 0-2.8.7-3.6 1.7h-.1v-6.2h-2v15.5h2v-5.3c0-2.1 1.3-3.6 3.3-3.6 1.8 0 2.9 1.4 2.9 3.2v5.7h2v-6.1c.1-3-1.8-4.9-4.5-4.9ZM26.6 5.156h-4.8v-3.7h-2v3.8h-1.9v2h1.9v6c0 1.7 1 2.7 2.7 2.7h4.1v-2h-3.7c-.7 0-1.1-.4-1.1-1.1v-5.7h4.8v-2ZM41.1 4.956c-1.6 0-2.9.8-3.5 2.1h-.1c-.6-1.2-1.8-2.1-3.4-2.1-1.4 0-2.5.8-3.1 1.8h-.1v-1.6H29v10.6h2v-5.4c0-2 1-3.5 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2v-6.5c.1-2.5-1.4-4.3-3.9-4.3ZM47.8 13.056c0 1.7 1 2.7 2.8 2.7h2v-2h-1.7c-.7 0-1.1-.4-1.1-1.1V.356h-2v12.7ZM28.9 20.056c-.9-1.1-2.2-1.8-3.9-1.8-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-1.9h.1v1.6h2v-10.6h-2v1.5Zm-3.6 7.4c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c0 1.9-1.4 3.6-3.6 3.6ZM44.2 22.356c-.5-2.4-2.6-4.1-5.4-4.1-3.4 0-5.6 2.5-5.6 5.6 0 3.1 2.2 5.6 5.6 5.6 2.8 0 4.9-1.8 5.4-4.2h-2.1c-.4 1.3-1.7 2.3-3.3 2.3-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6c1.6 0 2.8 1 3.3 2.2h2.1v-.2ZM55.1 20.056c-.9-1.1-2.2-1.8-3.9-1.8-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-1.9h.1v1.6h2v-10.6h-2v1.5Zm-3.6 7.4c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c0 1.9-1.5 3.6-3.6 3.6ZM68.7 20.156c-.9-1.1-2.2-1.9-3.9-1.9-3.1 0-5.4 2.3-5.4 5.6s2.2 5.6 5.4 5.6c1.7 0 3-.8 3.8-1.8h.1v1.5h2v-15.4h-2v6.4Zm-3.6 7.3c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c-.1 2-1.5 3.6-3.6 3.6ZM78.3 18.256c-3.3 0-5.5 2.5-5.5 5.6 0 3 2.1 5.6 5.5 5.6 2.5 0 4.5-1.3 5.2-3.6h-2.1c-.5 1-1.6 1.6-3 1.6-1.9 0-3.3-1.3-3.4-2.9h8.8c.2-3.6-2-6.3-5.5-6.3Zm0 1.9c1.7 0 3 1 3.3 2.6h-6.5c.3-1.5 1.5-2.6 3.2-2.6ZM98.2 18.256c-1.6 0-2.9.8-3.6 2h-.1c-.6-1.2-1.8-2-3.4-2-1.4 0-2.5.7-3.1 1.8v-1.5h-1.9v10.6h2v-5.4c0-2 1-3.4 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2v-6.5c.1-2.6-1.4-4.4-3.9-4.4ZM109.4 27.356l-3.6-8.9h-2.2l4.8 11.6c-.3.9-.7 1.2-1.7 1.2h-2.5v2h2.5c1.8 0 2.8-.8 3.5-2.6l4.7-12.2h-2.1l-3.4 8.9Z"
+              /></svg
+          ></a>
+        </section>
+      </div>
+    </footer>
+
+    <!-- Модальное окно-->
+
+    <div class="modal-container modal-container-close">
+      <div class="modal modal-hotel-search-form">
+        <button class="modal-close" type="button">
+          <span class="visually-hidden"
+            >Кнопка закрытия окна поиска гостиницы.</span
+          >
+        </button>
+        <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+        <form
+          class="hotel-search-form"
+          action="https://echo.htmlacademy.ru/"
+          method="get"
+        >
+          <div class="field-group check-in booking-date">
+            <label class="form-label" for="check-in-date">Дата Заезда:</label>
+            <input
+              class="booking-date-field"
+              type="text"
+              id="check-in-date"
+              name="check-in-date"
+              placeholder="Укажите дату"
+            />
+            <button class="calendar-icon" type="button">
+              <span class="visually-hidden"
+                >Кнопка календарь для выбора даты заезда</span
+              >
+            </button>
+          </div>
+          <span class="dates-message error-warning"
+            >Мы не можем отправить вас в прошлое.</span
+          >
+          <div class="field-group check-out booking-date">
+            <label class="form-label" for="check-out-date">Дата Выезда:</label>
+            <input
+              class="booking-date-field"
+              type="text"
+              id="check-out-date"
+              name="check-out-date"
+              placeholder="Укажите дату"
+            />
+            <button class="calendar-icon" type="button">
+              <span class="visually-hidden"
+                >Кнопка календарь для выбора даты выезда</span
+              >
+            </button>
+          </div>
+          <span class="dates-message warning"
+            >На эти даты есть свободные номера. Пока есть.</span
+          >
+          <div class="guest-number-field left-side">
+            <label class="form-label" for="guest-number-adults"
+              >Взрослые:</label
+            >
+            <div class="guest-number-container">
+              <input
+                class="guest-number adults"
+                id="guest-number-adults"
+                name="guest-number-adults"
+                type="number"
+                step="1"
+                value="2"
+                min="1"
+              />
+              <button class="guest-number-control minus-left" type="button">
+                <span class="visually-hidden"
+                  >Кнопка минус для убавления количества гостей</span
+                >
+              </button>
+              <button class="guest-number-control plus-left" type="button">
+                <span class="visually-hidden"
+                  >Кнопка плюс для прибавления количества гостей</span
+                >
+              </button>
+            </div>
+          </div>
+          <div class="guest-number-field right-side">
+            <span class="form-label">
+              <label class="form-label" for="guest-number-children"
+                >Дети:</label
+              >
+              <span class="tooltip">
+                <button
+                  class="tooltip-toggle"
+                  type="button"
+                  aria-labelledby="tooltip-label-children-number"
+                >
+                  <span class="visually-hidden"
+                    >Посмотреть дополнительную информацию</span
+                  >
+                </button>
+                <span
+                  class="tooltip children-guests"
+                  role="tooltip"
+                  id="tooltip-label-children-number"
+                >
+                  Укажите количество детей, которые будут с вами, возраст
+                  которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
+                </span>
+              </span>
+            </span>
+            <div class="guest-number-container">
+              <input
+                class="guest-number children"
+                id="guest-number-children"
+                name="guest-number-children"
+                type="number"
+                step="1"
+                value="2"
+                min="0"
+              />
+              <button class="guest-number-control minus-right" type="button">
+                <span class="visually-hidden"
+                  >Кнопка минус для убавления количества гостей</span
+                >
+              </button>
+              <button class="guest-number-control plus-right" type="button">
+                <span class="visually-hidden"
+                  >Кнопка плюс для прибавления количества гостей</span
+                >
+              </button>
+            </div>
+          </div>
+          <button class="modal submit-button" type="submit">
+            <span>Найти</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
