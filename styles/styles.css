@@ -1731,6 +1731,7 @@ input[type="radio"]:focus-visible {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+  width: 120px;
   padding-right: 8px;
 }
 
@@ -1745,7 +1746,6 @@ input[type="radio"]:focus-visible {
   background-size: 16px 15px;
   border: none;
   appearance: none;
-
   cursor: pointer;
 }
 
@@ -1847,6 +1847,7 @@ input[type="radio"]:focus-visible {
 
 .booking-date {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   position: relative;
   justify-content: space-between;
