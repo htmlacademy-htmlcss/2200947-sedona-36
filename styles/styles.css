@@ -712,6 +712,7 @@ body {
   flex-grow: 1;
   width: 1200px;
   background-color: #ffffff;
+  margin-top: -12px;
 }
 
 /* Поиск гостиницы*/
@@ -745,7 +746,7 @@ body {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  width: 114px;
+  /*width: 114px;*/
   height: 21px;
   margin: 0;
   padding: 0;
@@ -997,8 +998,6 @@ input[type="radio"]:focus-visible {
 }
 
 .price-range {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
@@ -1020,6 +1019,26 @@ input[type="radio"]:focus-visible {
   position: relative;
   padding-right: 44px;
   margin: 0 1px;
+}
+
+.price.max-input::-webkit-outer-spin-button,
+.price.max-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.price.min-input::-webkit-outer-spin-button,
+.price.min-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.price.min-input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.price.max-input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 .price.min-input:hover,
@@ -1140,7 +1159,6 @@ input[type="radio"]:focus-visible {
 
 .sorting-hotel {
   width: 338px;
-  height: 36px;
   padding: 7px 0;
 }
 
@@ -1256,7 +1274,7 @@ input[type="radio"]:focus-visible {
 
 .hotel-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   width: 1060px;
   flex-wrap: wrap;
   position: relative;
@@ -1459,6 +1477,11 @@ input[type="radio"]:focus-visible {
 
 .pagination-item-current {
   background-color: #f2f2f2;
+}
+
+.pagination-hellip {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 /* Рассылка */
