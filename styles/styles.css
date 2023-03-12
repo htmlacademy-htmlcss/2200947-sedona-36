@@ -66,7 +66,7 @@ body {
   background-color: #ffffff;
   display: flex;
   width: 1200px;
-  height: 64px;
+  min-height: 64px;
   margin: 0 auto;
 }
 
@@ -83,12 +83,8 @@ body {
   opacity: 0.4;
 }
 
-logo-sait:hover {
-  opacity: 0.1;
-}
-
-.header-logo:hover {
-  opacity: 0.5;
+.header-logo:active {
+  opacity: 0.6;
 }
 
 .navigation-list {
@@ -128,6 +124,7 @@ logo-sait:hover {
 .navigation-link:focus {
   outline: 2px solid #83b3d3;
 }
+
 .navigation-link:active {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -213,6 +210,7 @@ logo-sait:hover {
 
 .main-container {
   flex-grow: 1;
+  margin-top: -12px;
 }
 
 .page-container {
@@ -501,7 +499,7 @@ logo-sait:hover {
   color: #ffffff;
   text-align: Center;
   background-color: #756157;
-  padding: 8px 50px;
+  padding: 12px 50px;
   width: 276px;
   height: 36px;
   cursor: pointer;
@@ -553,7 +551,7 @@ logo-sait:hover {
 
 .newsletter-form {
   display: flex;
-  height: 52px;
+  min-height: 52px;
   width: 684px;
   margin: 0;
   padding-top: 54px;
@@ -605,17 +603,19 @@ logo-sait:hover {
   align-self: center;
   gap: 41px;
   width: 1060px;
-  height: 50px;
-  padding: 40px 70px 30px;
+  min-height: 50px;
+  padding: 38px 70px 30px;
 }
 
 .footer-social-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   list-style-type: none;
   width: 142px;
   height: 40px;
   padding: 0;
+  padding-top: 5px;
   margin: 0;
 }
 
@@ -660,6 +660,7 @@ logo-sait:hover {
 .footer-contacts {
   width: 720px;
   text-align: center;
+  padding-top: 5px;
 }
 
 .contacts-phone {
@@ -871,14 +872,11 @@ logo-sait:hover {
 
 .catalog-filter-group-right {
   display: flex;
-
   flex-wrap: wrap;
-
   align-items: flex-start;
   width: 288px;
   margin: 0;
   padding: 0 0 16px;
-
   box-sizing: border-box;
 }
 
