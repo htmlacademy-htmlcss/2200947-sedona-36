@@ -163,7 +163,7 @@ body {
   background-color: #756257;
 }
 
-.navigation-item:hover {
+.navigation-item:hover svg{
   opacity: 0.6;
 }
 
@@ -175,6 +175,21 @@ body {
 }
 
 .navigation-item:disabled {
+  opacity: 0.1;
+}
+
+.navigation-link:hover{
+  opacity: 0.6;
+}
+
+.navigation-link:focus {
+  outline: 2px solid #83b3d3;
+}
+.navigation-link:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.navigation-link:disabled {
   opacity: 0.1;
 }
 
