@@ -410,6 +410,7 @@ body {
   text-align: Center;
   margin: 0 auto;
 }
+
 /* Раздел сервис */
 
 .services-item-home,
@@ -811,8 +812,6 @@ body {
   margin-right: 10px;
 }
 
-/*  */
-
 .catalog-filter-list,
 .catalog-filter-group {
   list-style: none;
@@ -942,7 +941,6 @@ input[type="radio"] {
   margin: 0;
   padding: 0;
   border: none;
-
   appearance: none;
   position: relative;
   bottom: 2px;
