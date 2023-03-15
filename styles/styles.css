@@ -234,13 +234,23 @@ body {
 }
 
 .section-hero {
-  background: url("../images/hero-masck.svg") bottom no-repeat,
-    url("../images/index-background.jpg") center no-repeat;
-  height: 485px;
+  background-color: #02549e;
+  background-image: url("../images/hero-masck.svg"),
+    url("../images/index-background.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100% 57px, cover;
+  background-position: bottom left, 0 0;
+  min-height: 485px;
+  box-sizing: border-box;
+
 }
 
 .hero-welcome {
-  padding: 51px 371px 82px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 82px;
 }
 
 /* Раздел приемуществ */
@@ -410,6 +420,7 @@ body {
   text-align: Center;
   margin: 0 auto;
 }
+
 /* Раздел сервис */
 
 .services-item-home,
@@ -524,10 +535,10 @@ body {
 
 .newsletter-index {
   color: #ffffff;
+  background-color: #68a2ca;
   background-image: url("../images/index-background-bottom.jpg");
   background-repeat: no-repeat;
   background-size: 1200px 415px;
-  background-color: #68a2ca;
   text-align: Center;
   height: 215px;
   margin: 0;
@@ -545,15 +556,6 @@ body {
   padding-bottom: 20px;
 }
 
-.newsletter-titles {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
-  text-transform: uppercase;
-  text-align: Center;
-  margin: 0 auto;
-}
 
 .newsletter-subscribtion {
   font-family: "PT Sans", sans-serif;
@@ -599,15 +601,15 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  text-transform: uppercase;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 8px 50px;
   color: #ffffff;
   background-color: #82b3d3;
   display: block;
   border: none;
 }
-
 /* Футер */
 
 .page-footer-container {
@@ -733,9 +735,10 @@ body {
 /* Поиск гостиницы*/
 
 .catalog-backgraund {
+  background-color: #68a2ca;
   background-image: url("../images/catalog-background.jpg");
   background-repeat: no-repeat;
-  background-color: #68a2ca;
+  background-size: cover;
   width: 1200px;
   min-height: 412px;
 }
@@ -810,8 +813,6 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
-
-/*  */
 
 .catalog-filter-list,
 .catalog-filter-group {
@@ -942,7 +943,6 @@ input[type="radio"] {
   margin: 0;
   padding: 0;
   border: none;
-
   appearance: none;
   position: relative;
   bottom: 2px;
@@ -1319,6 +1319,7 @@ input[type="radio"]:focus-visible {
   row-gap: 16px;
   margin-left: 20px;
   margin-top: 16px;
+  padding-bottom: 23px;
 }
 
 .grid-title {
@@ -1449,7 +1450,7 @@ input[type="radio"]:focus-visible {
   background-color: #ffffff;
   width: 1060px;
   margin: 0 auto;
-  padding: 40px 0 60px;
+  padding: 36px 0 60px;
 }
 
 .pagination-number {
