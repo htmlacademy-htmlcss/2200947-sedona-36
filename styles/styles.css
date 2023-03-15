@@ -258,8 +258,9 @@ body {
 .main-benefits {
   background-color: #ffffff;
   width: 1200px;
-  padding-top: 69px;
+  padding-top: 70px;
   padding-bottom: 90px;
+  margin-top: -1px;
 }
 
 .main-benefits-sity-intro {
